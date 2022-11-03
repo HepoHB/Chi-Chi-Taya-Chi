@@ -1,2 +1,2 @@
-# Jormungand
-Site para E-commerce de armas e munições.
+# Taiyaki
+Site para E-commerce de mangás.
