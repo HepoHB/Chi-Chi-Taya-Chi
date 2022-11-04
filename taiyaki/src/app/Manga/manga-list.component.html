@@ -1,0 +1,29 @@
+<h1>Mangás</h1>
+<table class="table table-striped text-center">
+    <thead>
+        <th>Imagem</th>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Coleção</th>
+        <th>Autor</th>
+        <th>Número de Páginas</th>
+        <th>Avaliação</th>
+        <th>Classificação Indicativa</th>
+
+    </thead>
+    <tbody>
+        <tr *ngFor="let manga of mangas">
+            <td><img [src]="manga.imageUrl" width="120rem"/></td>
+            <td>{{ manga.name }}</td>
+            <td>R${{ manga.price.toString().replace(".",",") }}</td>
+            <td>{{ manga.series }}</td>
+            <td>{{ manga.writer }}</td>
+            <td>{{ manga.pagesNumber }}</td>
+            <td>{{ manga.rating }}</td>
+            <td>{{ manga.ageRating }}</td>
+
+        </tr>
+
+    </tbody>
+
+</table>
