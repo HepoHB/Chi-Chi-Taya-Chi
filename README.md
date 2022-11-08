@@ -1,4 +1,4 @@
 # Taiyaki
 Site para E-commerce de mangás.
 
-<img href="Mockups/HF-Main.png" />
+<img src="Mockups/HF-Main.png" />
